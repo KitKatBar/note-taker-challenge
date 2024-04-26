@@ -1,3 +1,4 @@
+// Import packages needed for this application
 const fs = require('fs');
 const util = require('util');
 
@@ -33,4 +34,5 @@ const readAndAppend = (content, file) => {
   });
 };
 
+// Export the functions
 module.exports = { readFromFile, writeToFile, readAndAppend };
